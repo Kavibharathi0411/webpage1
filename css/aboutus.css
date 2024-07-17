@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    background-color:#fefefe;
+}
+.display-flex{
+    display: flex;
+}
+h1{
+    font-size: 45px;
+    padding-top: 100px;
+}
+a{ 
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    color:#86ba41;
+}
+/* /header section/ */
+.pre-header{
+    background-color:#21262c;
+    display:flex;
+    padding: 0 20px;
+}
+.pre-header h5{
+    font-size: 18px;
+    color:#ffffff;
+    margin: 10px 20px;
+}
+/* /icon section/ */
+i{
+    color:#ffffff; 
+    font-size: 18px;
+    margin:15px;
+}
+.icon-style{
+    padding-left:450px;
+}
+/* /header section/ */
+
+header{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding: 10px 0;
+}
+header .navigation-menu{
+    margin: 0;
+    list-style-type: none;
+}
+header .navigation-menu li{
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.header-btn
+{
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: #86ba41;
+    color: #ffffff;
+    border: 1px solid #86ba41;
+    font-weight: 600;
+}
+/* /banner section/ */
+.display-flex li{
+    list-style-type:none;
+    font-weight: 200;
+    padding-bottom: 100px;
+}
+.topic{
+    margin-left: 580px;
+    margin-right: 30px;
+}
+.banner-section{
+    background-color: rgba(10, 247, 235, 0.096);
+    text-align: center;
+    height:200px;
+}
+/* /why we are/ */
+.why-evergreen{
+    margin-left:120px;
+    width:400px;
+}
+.smalltitle
+{
+    color: #86ba41;
+    font-size:15px;
+    margin-top:100px;
+}
+.subdivision
+{
+    font-family:"Arial";
+    font-size:35px;
+}
+.para
+{
+    width:430px;
+    line-height:25px;
+    margin-bottom: 35px;
+    color: #000000bd;
+}
+.solution
+{
+   position: relative;
+}
+.solution::before
+{
+   position: absolute;
+   content: "";
+   width:100%;
+   height: 7px;
+   background-repeat: no-repeat;
+   top: 100%;
+   left: 0;
+   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 208.01 8.3'%3E%3Cpath fill='%2386ba41' d='M64.42 2.42Q42.78 1.46 21.19 0c-2.8-.19-4.09.89-3.87 2l-13.4-.13c-5.13-.05-5.28 3.87-.12 3.92l60.49.55c46.63 2.08 93.34 2.51 139.81 1.27 5-.13 5.39-3.87.13-3.92Z'/%3E%3C/svg%3E");
+}
+.why-design{
+    margin:200px 100px;
+    width:600px;
+    height:600px;
+}
